@@ -104,6 +104,10 @@ body {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
+  .search input {
+    width: 80%; /* Adjust width as needed */
+    font-size: 16px;
+  }
   .details {
     flex-direction: row; /* Adjust for mobile */
     justify-content: space-between; /* Space items horizontally */
