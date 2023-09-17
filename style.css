@@ -25,7 +25,7 @@ body {
 .search {
   width: 100%;
   display: flex;
-  flex-direction: column; /* Adjust for mobile */
+  flex-direction: row; /* Adjust for mobile */
   align-items: center;
   justify-content: space-between;
 }
@@ -40,7 +40,7 @@ body {
   border-radius: 30px;
   font-size: 18px;
   text-align: left;
-  width: 100%; /* Adjust for mobile */
+  width: 80%; /* Adjust for mobile */
   margin-bottom: 16px; /* Adjust for mobile */
 }
 
@@ -51,6 +51,7 @@ body {
   border-radius: 50px;
   width: 60px;
   height: 60px;
+  margin-bottom: 16px;
   cursor: pointer;
 }
 
